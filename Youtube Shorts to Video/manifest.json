@@ -1,0 +1,12 @@
+{
+  "name": "Youtube Shorts to Normal Video",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Its annoying that YT shorts do not have any video controls. So this extension will convert shorts to normal YT videos.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*"],
+      "js": ["popup.js"]
+    }
+  ]
+}
